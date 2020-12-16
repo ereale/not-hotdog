@@ -1,0 +1,19 @@
+{
+  "name": "sse-scrape",
+  "version": "1.0.0",
+  "description": "Scrapes SSE for new listings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "firebase-admin": "^9.4.1",
+    "firebase-functions": "^3.13.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.5.0",
+    "twilio": "^3.53.0"
+  }
+}
